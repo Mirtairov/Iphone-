@@ -1,0 +1,574 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    background: url(../img/bg.png);
+    padding: 20px;
+}
+
+.A4{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    transition: .2s linear;
+}
+
+.A4:hover{
+    color: black;
+    transition: .2s linear;
+    font-size: 23px;
+}
+
+.A5{
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.A6{
+    margin-left: 50px;
+}
+
+.buttons1{
+    margin-left: 70px;
+}
+
+.button1{
+    color: white;
+    width: 129px;
+    height: 41px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    background:deepskyblue;
+    transition: .2s  linear
+}
+
+.button1:hover{
+    background:deeppink;
+    transition: .2s  linear;
+    box-shadow: 0px 0px 15px red;
+}
+
+.button2{
+    color: white;
+    width: 129px;
+    height: 41px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    background:deepskyblue;
+    transition: .2s  linear
+}
+
+.button2:hover{
+    background:deeppink;
+    transition: .2s  linear;
+    box-shadow: 0px 0px 15px red;
+}
+
+.A7{
+    display: flex;  
+}
+
+.A9{
+    color: white;
+    width: 684px;
+    height: 165px;
+    font-size: 40px;
+}
+
+.A10{
+    color: white;
+    width: 557px;
+    height: 51px;
+}
+
+.A11{
+    width: 196px;
+    height: 43px;
+    margin-left: 30px;
+}
+
+.A12{
+    display: flex;
+    margin-top: 30px;
+}
+
+.img1{
+    margin-left: 90px;
+}
+
+.section2{
+    background: #FFFFFF;
+    padding: 80px;
+}
+
+.A14{
+    display: flex;
+}
+
+.A16{
+    width: 580px;
+    height: 100px;
+    font-size: 45px;
+}
+
+.A17{
+    display: flex;
+    margin-top: 40px;
+}
+
+.A18{
+    width: 419px;
+    height: 59px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.A19{
+    color: #A747FB;
+}
+
+.A20{
+    display:flex;
+}
+
+/* .img3{
+    margin-left: 200px;
+} */
+
+.section3{
+    background: #FFFFFF;
+    padding: 40px;
+}
+
+.A22{
+    margin-top: 250px;
+    margin-left: 360px;
+}
+
+.A23{
+    width: 580px;
+    height: 180px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.section4{
+    background:#E9EBF7;
+    padding: 40px   ;
+}
+
+.flex__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width:) {
+    
+}
+
+
+
+@media (max-width: 1310px) {
+    .A23{
+        width: 400px;
+        font-size: 18;
+    }
+
+}
+
+@media (max-width: 1020px) {
+    .flex__block{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1000px) {
+    .A23{
+        width: 250px;
+        font-size: 15px;
+    }
+}
+
+.section5{
+    background: #E9EBF7;
+    padding: 40px;
+
+}
+
+.tort{
+    width: 374px;
+    height: 209px;
+}
+
+.A25{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.signup{
+    background: blue;
+    width: 800px;
+    height: 259px;
+    margin-left: 200px;
+    border-radius: 10px;
+    transition: .2s linear;
+}
+
+.signup:hover{
+    background: red;
+    transition: .2s linear;
+    box-shadow: 0px 0px 20px black;
+}
+
+
+.A27{
+    width: 888px;
+    height: 157px;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button3{
+    width: 175px;
+    height: 45px;
+    color: white;
+    background: fuchsia;
+    border: none;
+    border-radius: 10px;
+    transition: .2s linear;
+
+}
+
+.button3:hover{
+    color: black;
+    background: aqua;
+    transition: .2s linear;
+    box-shadow: 0px 0px 20px black;
+}
+
+.text1{
+    width: 218px;
+    height: 43px;
+    font-size: 16px;
+}
+
+.section6{
+    background: #FFFFFF;
+    padding: 40px;
+}
+
+.A30{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.A31{
+    width: 320px;
+    height: 46px;
+    font-size: 16px;
+}
+
+.A32{
+    width: 580px;
+    height: 310px;
+}
+
+.section7{
+    background: #E9EBF7;
+    padding: 40px;
+}
+
+.A35{
+    color: #1D1D1D;
+    width: 1116px;
+    height: 149px;
+}
+
+.A36{
+    display: flex;
+    justify-content: center;
+}
+
+.A37{
+    background: #FFFFFF;
+    width: 560px;
+    height: 332px;
+    border-radius: 10px;
+    transition: .2s linear;
+}
+
+.A37:hover{
+    color: white;
+    background: black;
+    transition: .2s linear;
+    box-shadow: 0px 0px 40px blue;
+}
+
+.A38{
+    background: #FFFFFF;
+    width: 560px;
+    height: 332px;
+    border-radius: 10px;
+    transition: .2s linear;
+}
+
+.A38:hover{
+    color: white;
+    background: black;
+    transition: .2s linear;
+    box-shadow: 0px 0px 40px blue;
+}
+
+.A39{
+    display: flex;
+    justify-content: center;
+}
+
+.A40{
+    width: 1160px;
+    height: 357px;
+    background: linear-gradient(93.01deg, #BE30D2 6.8%, #7188F7 99.21%) ;
+    transition: .2s linear;
+    border-radius: 19px;
+}
+
+.A40:hover{
+    background:blue;
+    transition: .2s linear;
+    box-shadow: 0px 0px 20px black;
+}
+
+.A41{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button4{
+    width: 175px;
+    height: 45px;
+    color: white;
+    background: fuchsia;
+    border: none;
+    border-radius: 10px;
+    transition: .2s linear;
+
+}
+
+.button4:hover{
+    color: black;
+    background: aqua;
+    transition: .2s linear;
+    box-shadow: 0px 0px 20px black;
+}
+
+.text2{
+    width: 730px;
+    height: 80px;
+    font-size: 16px;
+}
+
+.A42{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section8{
+    background:  white;
+    padding: 40px;
+}
+
+.Lingo{
+    display: flex;
+    justify-content: center;
+}
+
+.Politika{
+    display: flex;
+    justify-content: center;
+}
+
+.Mosk{
+    width: 512px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
